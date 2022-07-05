@@ -9,14 +9,17 @@ class TodoItem extends React.Component {
   render() {
     return (
         <li>
-            <input type="checkbox" />
+            <input type="checkbox"
+            checked={this.props.todo.completed}
+            onChange={() => this.props.handleChangeProps()}
+            />
             {this.props.todo.title}
         </li>
   )}
 }
 
 TodoItem.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 };
 
 export default TodoItem;
