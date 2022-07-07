@@ -29,9 +29,8 @@ To run a local copy of this project follow these simple steps.
 
 - Create a new folder.
 - Open your console in the new folder and run this command: `https://github.com/Olamarx/react-to-do-app.git`.
-- Open index.html file with your code editor, and run it with a live server extension.
-- You're done!
-
+- Run this command on your terminal to install all the dependencies: `npm i`.
+- Finally, run this command to start a local server of the project: `npm start`.
 
 ## Authors
 
