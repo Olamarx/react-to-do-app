@@ -8,4 +8,3 @@ root.render(
     <TodoContainer />
   </React.StrictMode>,
 );
-
